@@ -2,6 +2,7 @@
 主要三大块  
 
 ## 1.Tokenizer类
+** 一个工具类,用于辅助parser类进行sql解析**  
 ```java
 public class Tokenizer {
     private byte[] stat;//待解析的原始字节流,sql
